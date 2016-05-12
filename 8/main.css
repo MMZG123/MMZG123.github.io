@@ -1,0 +1,32 @@
+.aside-ad{
+	width:320px;
+	height:270px;
+	background-color:#F6E9D7;
+	text-align:center;
+	padding-top:10px;
+	position:relative;
+	resize:vertical;
+	overflow:auto;
+
+}
+.menu ul{
+	background-color:#fff;
+} 
+.menu li{
+	display:block;
+	float:left;
+	width:97px;
+	height:24px;
+	text-align:center;
+	line-height:24px;
+	font-size:14px;
+}
+.menu a{
+	color:black;
+	text-decoration:none;
+	padding:10px;
+}
+.menu a:hover{
+	color:white;
+	background-color:#a7a59b;
+}
