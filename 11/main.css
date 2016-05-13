@@ -1,0 +1,202 @@
+body {
+    background-color:#ffcb93;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*网页居中容器样式设定*/
+
+#wrap {
+    margin: 0 auto;
+    height: 90px;
+    width: 970px;
+}
+
+
+/*顶部通栏广告样式设定*/
+
+.top-ad {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    height:800px;
+    width:1000px;
+  
+}
+
+
+/*顶部导航条样式设定*/
+
+#nav {
+    border-bottom: 10px #cccc66 solid;
+    padding-bottom: 10px;
+}
+
+#nav p {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#nav img {
+    display: block;
+    width: 172px;
+    height: 43px;
+    float: left;
+}
+
+#nav div:last-child {
+    /*background-color: red;*/
+    float: right;
+}
+
+#nav div:last-child p {
+    text-align: right;
+}
+
+#nav h1 {
+    font-family: simhei;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    width: 150px;
+}
+
+#nav p a {
+    color: #4D8BB8;
+    text-decoration: none;
+}
+
+#nav form p {
+    float: left;
+}
+
+.menu ul {
+    background-color: #fff;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    width: 97px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 25px;
+}
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #A7A59B;
+    border: 1px #A7A59B solid;
+    border-radius: 5px;
+}
+
+
+/*主体部分样式*/
+
+.left {
+    width: 620px;
+    float: left;
+    border-right: 1px #F6E9D8 solid;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.aside {
+    width: 339px;
+    float: left;
+}
+
+.published-time {
+    color: #bb3d00;
+    margin: 18px 0;
+    font-weight: bold;
+}
+
+.left h1 {
+    font-size: 30px;
+    font-family: "Microsoft Yahei", "monospace";
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.author {
+    color: #00bb00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bdsharebuttonbox {
+    float: right;
+}
+
+.content p {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.content .first-p {
+    text-indent: 0;
+}
+
+.first-p:first-letter {
+    color: red;
+    font-size: 48px;
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.content p.img {
+    text-align: center;
+    text-indent: 0;
+}
+
+.aside-ad {
+    width: 400px;
+    height: 500px;
+    background-color: #F6E9D7;
+    padding-top: 5px;
+    position: relative;
+    resize: vertical;
+    overflow: auto;
+    text-align: center;
+}
+
+.aside-ad img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+element.style{
+    height:600px;
+    width:1000px;
+}
+.right h2{
+    font-size:20px;
+    font-family: "Microsoft Yahei", "monospace";
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+}
